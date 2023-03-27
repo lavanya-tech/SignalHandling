@@ -171,7 +171,8 @@ int main() {
     return 0;
 }
 ```
-c.Stack Overflow Exception
+c. Stack Overflow Exception
+
 ```
 #include <Windows.h>
 #include <stdio.h>
@@ -186,7 +187,6 @@ int main() {
   }
   return 0;
 }
-'''
-
+```
 
 The __try keyword is used for Structured Exception Handling (SEH) in C++ and Windows-specific versions of C. It is not part of the C standard, and may not be available on some platforms or compilers.Structured exception handling (SEH) is a Microsoft extension to C and C++ to handle certain exceptional code situations, such as hardware faults, gracefully
