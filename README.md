@@ -210,8 +210,8 @@ The __try keyword is used for Structured Exception Handling (SEH) in C++ and Win
 
 ### Resources:
 - Windows :
-    -- Control Handling : https://learn.microsoft.com/en-us/windows/console/registering-a-control-handler-function
-    -- Structred Exception Handling : https://amitkparida.medium.com/structured-exception-handling-in-visual-c-618b9e792faa , https://limbioliong.wordpress.com/2022/01/09/understanding-windows-structured-exception-handling-part-1/ , https://learn.microsoft.com/en-us/cpp/cpp/structured-exception-handling-c-cpp?view=msvc-170 .
+    - Control Handling : https://learn.microsoft.com/en-us/windows/console/registering-a-control-handler-function
+    - Structred Exception Handling : https://amitkparida.medium.com/structured-exception-handling-in-visual-c-618b9e792faa , https://limbioliong.wordpress.com/2022/01/09/understanding-windows-structured-exception-handling-part-1/ , https://learn.microsoft.com/en-us/cpp/cpp/structured-exception-handling-c-cpp?view=msvc-170 .
 - Linux :
-    -- Signal Handling : http://odl.sysworks.biz/disk$axpdocdec971/progtool/deccv56/5763profile0024.html#:~:text=A%20routine%20called%20by%20the,condition%20handler%2C%20or%20exception%20handler.
+    - Signal Handling : http://odl.sysworks.biz/disk$axpdocdec971/progtool/deccv56/5763profile0024.html#:~:text=A%20routine%20called%20by%20the,condition%20handler%2C%20or%20exception%20handler.
     
