@@ -188,5 +188,22 @@ int main() {
   return 0;
 }
 ```
+d. Dereferencing null pointer exception
+```
+#include <Windows.h>
+#include <stdio.h>
+
+int main() {
+  int *ptr = NULL;
+  __try {
+    // Dereference a null pointer to cause a null pointer exception
+    *ptr = 42;
+  }
+  __except(GetExceptionCode() == EXCEPTION_ACCESS_VIOLATION ? EXCEPTION_EXECUTE_HANDLER : EXCEPTION_CONTINUE_SEARCH) {
+    printf("Null pointer exception caught\n");
+  }
+  return 0;
+}
+```
 
 The __try keyword is used for Structured Exception Handling (SEH) in C++ and Windows-specific versions of C. It is not part of the C standard, and may not be available on some platforms or compilers.Structured exception handling (SEH) is a Microsoft extension to C and C++ to handle certain exceptional code situations, such as hardware faults, gracefully
